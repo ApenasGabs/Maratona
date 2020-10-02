@@ -1,0 +1,48 @@
+/* Margem das páginas*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Títilo do Topo */
+.title-topo {
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* Corpo da página */
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+}
+
+.container-boby {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.title-container {
+  color: #000000;
+  text-align: center;
+}
+
+.info {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.info h3 {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
